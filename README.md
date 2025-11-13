@@ -1893,7 +1893,8 @@
   { question: "A Teleflex cable is connected into a push pull control unit by a:", options: ["A. soldered nipple","B. lock spring connector","C. sliding end fitting"], answer: "B" },
   { question: "Aircraft flying control system cable is usually manufactured from:", options: ["A. straight, galvanised steel wire strands","B. non pre-formed, single corrosion resistant steel wire strands","C. pre-formed, multiple corrosion resistant steel wire strands"], answer: "C" },
   { question: "Cable tension on a flying control wire system that incorporates a cable tension regulator is measured by using a:", options: ["A. scale reading on the tension regulator and a setting graph","B. cable tensiometer and a setting graph","C. cable tensiometer and a scale reading on the tension regulator"], answer: "A" },
-  { question: "Aircraft control tubes are manufactured from:", options: ["A. aluminium alloy tubing","B. steel tubing","C. aluminium tubing"], answer: "A" }
+  { question: "Aircraft control tubes are manufactured from:", options: ["A. aluminium alloy tubing","B. steel tubing","C. aluminium tubing"], answer: "A" },
+
 ]
 
 
