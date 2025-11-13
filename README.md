@@ -163,6 +163,222 @@
     <script>
             document.addEventListener("DOMContentLoaded", function () {
               const questions =   [
+                [
+  {
+    question: "Ferrous metals are so-called because their main constituent is:",
+    options: ["A. carbon", "B. iron", "C. cementite"],
+    answer: "B"
+  },
+  {
+    question: "A metal's resistance to fracture under the action of external bending or impact forces is called:",
+    options: ["A. hardness", "B. strength", "C. toughness"],
+    answer: "C"
+  },
+  {
+    question: "The maximum percentage of carbon that can be dissolved in iron at room temperature is:",
+    options: [
+      "A. less than when the iron is above its upper critical temperature",
+      "B. more than when it is above its upper critical temperature",
+      "C. the same regardless of the temperature of the iron"
+    ],
+    answer: "A"
+  },
+  {
+    question: "Steel is a term given to:",
+    options: [
+      "A. iron that contains a percentage of carbon in solution",
+      "B. iron that contains one or more elements in addition to carbon",
+      "C. a metal that is predominantly made of iron"
+    ],
+    answer: "A"
+  },
+  {
+    question: "High carbon steel contains:",
+    options: [
+      "A. 0.2% to 0.5% carbon",
+      "B. 0.7% to 1.5% carbon",
+      "C. 2% to 5% carbon"
+    ],
+    answer: "B"
+  },
+  {
+    question: "An alloy containing 75% nickel and 25% cobalt would be called:",
+    options: [
+      "A. nickel steel alloy",
+      "B. high nickel alloy",
+      "C. low cobalt steel alloy"
+    ],
+    answer: "B"
+  },
+  {
+    question: "Stainless steels must contain a minimum chromium percentage of:",
+    options: ["A. 3%", "B. 5%", "C. 12%"],
+    answer: "C"
+  },
+  {
+    question: "Chromium is added to steel to:",
+    options: [
+      "A. give a fine grain structure and reduce brittleness",
+      "B. increase its work-hardening capacity",
+      "C. increase hardness and corrosion resistance"
+    ],
+    answer: "C"
+  },
+  {
+    question: "Temper brittleness is a feature of:",
+    options: [
+      "A. nickel steel",
+      "B. austenitic stainless steel",
+      "C. high carbon steel"
+    ],
+    answer: "B"
+  },
+  {
+    question: "A property of 'Invar' steel is that it:",
+    options: [
+      "A. has an extremely low coefficient of expansion",
+      "B. has very high permeability",
+      "C. self-hardens under mechanical pressure"
+    ],
+    answer: "A"
+  },
+  {
+    question: "A small percentage of lead is added to some steels to:",
+    options: [
+      "A. improve their machinability",
+      "B. reduce their brittleness",
+      "C. improve their wear resistance"
+    ],
+    answer: "A"
+  },
+  {
+    question: "A suitable material for use in an aircraft landing gear structure would be:",
+    options: [
+      "A. high carbon steel",
+      "B. tungsten, cobalt alloy steel",
+      "C. chrome, molybdenum alloy steel"
+    ],
+    answer: "C"
+  },
+  {
+    question: "A suitable alloy for use in an engine turbine wheel would be:",
+    options: [
+      "A. ferritic stainless steel",
+      "B. martensitic stainless steel",
+      "C. medium carbon steel"
+    ],
+    answer: "A"
+  },
+  {
+    question: "Austenitic steel:",
+    options: [
+      "A. does not expand or contract",
+      "B. does not respond to heat treatment",
+      "C. is magnetic"
+    ],
+    answer: "B"
+  },
+  {
+    question: "When carbon steel is being 'tempered' it is cooled:",
+    options: [
+      "A. slowly in the furnace",
+      "B. freely in still air",
+      "C. by quenching"
+    ],
+    answer: "C"
+  },
+  {
+    question: "When nickel is added to steel its main effect is to increase:",
+    options: [
+      "A. toughness",
+      "B. hardness",
+      "C. corrosion resistance"
+    ],
+    answer: "A"
+  },
+  {
+    question: "The heat treatment that softens steel and makes it more ductile is called:",
+    options: [
+      "A. tempering",
+      "B. annealing",
+      "C. normalising"
+    ],
+    answer: "B"
+  },
+  {
+    question: "The heat treatment that relieves locked up stresses and refines grain structure is called:",
+    options: [
+      "A. tempering",
+      "B. annealing",
+      "C. normalising"
+    ],
+    answer: "C"
+  },
+  {
+    question: "The 'fatigue limit' for a component is defined as:",
+    options: [
+      "A. the maximum load that can be endured for an infinite number of load cycles",
+      "B. the load at which the component will instantly fail",
+      "C. the minimum load that can be endured for an infinite number of load cycles"
+    ],
+    answer: "A"
+  },
+  {
+    question: "Yield stress is the maximum stress that can be endured without:",
+    options: [
+      "A. fracture",
+      "B. permanent distortion",
+      "C. work hardening"
+    ],
+    answer: "B"
+  },
+  {
+    question: "The hardness test that is most suited to very hard and very soft materials is the:",
+    options: [
+      "A. Brinell hardness test",
+      "B. Vickers hardness test",
+      "C. Barcol hardness test"
+    ],
+    answer: "B"
+  },
+  {
+    question: "An impact test result for metal test pieces is a measure of the:",
+    options: [
+      "A. energy remaining after impacting and breaking the test piece",
+      "B. energy at the start of the pendulum's swing",
+      "C. energy absorbed by the test piece"
+    ],
+    answer: "C"
+  },
+  {
+    question: "Which of these statements is false? (Remember? Read the question!)",
+    options: [
+      "A. brittle material cannot have high tensile strength",
+      "B. brittle material cannot have high toughness",
+      "C. brittle material cannot have high ductility"
+    ],
+    answer: "A"
+  },
+  {
+    question: "Tungsten and chromium will harden carbon steel by:",
+    options: [
+      "A. dissolving in ferrite and creating a fine grain structure",
+      "B. distorting the grain structure",
+      "C. reacting with carbon and forming carbide"
+    ],
+    answer: "C"
+  },
+  {
+    question: "The term 'high speed steel' refers to alloy steels that are used for:",
+    options: [
+      "A. high-speed aircraft",
+      "B. high-speed cutting tools",
+      "C. high rotational speed components"
+    ],
+    answer: "B"
+  },
+
+
   { question: "Pure copper can be hardened by:", options: ["A. heat treatment","B. cold working","C. case hardening"], answer: "B" },
   { question: "Precipitation treatment is given to some alloys in order to:", options: ["A. make them softer and more ductile","B. harden them","C. relieve internal locked up stresses"], answer: "B" },
   { question: "Non-ferrous metals are defined as metals that:", options: ["A. contain no iron","B. are non-magnetic","C. do not contain iron as a major constituent"], answer: "C" },
