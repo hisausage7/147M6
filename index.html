@@ -346,31 +346,27 @@
 
       /* ====== ✅ 結算表格：題目欄加寬，避免被拉超長 ====== */
       #results table {
-        min-width: 860px;
-      }
-      #results table th:nth-child(1),
-      #results table td:nth-child(1) {
-        width: 55%;
-        min-width: 420px;
-      }
-      #results table th:nth-child(3),
-      #results table td:nth-child(3) {
-        width: 35%;
-        min-width: 260px;
-      }
-      #results table th:nth-child(4),
-      #results table td:nth-child(4) {
-        width: 10%;
-        min-width: 70px;
-        text-align: center;
-        white-space: nowrap;
-      }
+  width: 100%;
+  min-width: 860px;
+  table-layout: fixed;
+}
 
-      @media (max-width: 540px) {
-        /* 題目少換行，靠橫向滑動看完整 */
-        #results table td:nth-child(1) {
-          white-space: nowrap;
-        }
+#results table th:nth-child(1),
+#results table td:nth-child(1),
+#results table th:nth-child(2),
+#results table td:nth-child(2),
+#results table th:nth-child(3),
+#results table td:nth-child(3) {
+  width: 30%;
+}
+
+#results table th:nth-child(4),
+#results table td:nth-child(4) {
+  width: 10%;
+  min-width: 70px;
+  text-align: center;
+  white-space: nowrap;
+
       }
 
       /* 預載深色 */
@@ -389,7 +385,7 @@
     <div id="container">
       <!-- 歡迎頁 -->
       <div id="welcome">
-        <h1>147測驗M6-校內考</h1>
+        <h1>147測驗M6-CAA</h1>
 
         <div id="rules">
           <p><strong>考試注意事項 / Exam Rules:</strong></p>
@@ -912,7 +908,8 @@
 
 
 
-            var NAME_STORE_KEY = "147_username_v1";
+            
+         var NAME_STORE_KEY = "147_username_v1";
         function loadSavedName() {
           try {
             var n = localStorage.getItem(NAME_STORE_KEY);
@@ -1538,5 +1535,7 @@
         })();
       });
     </script>
+  </body>
+</html>
   </body>
 </html>
